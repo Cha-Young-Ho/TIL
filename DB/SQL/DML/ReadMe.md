@@ -100,6 +100,70 @@ HAVING ${조건}
 
 # JOIN
 
+> JOIN은 두 개의 테이블을 엮어서 원하는 데이터를 추출할 수 있는 기능이다.
+
+JOIN은 4가지의 종류가 있다.
+
+* INNER JOIN
+* OUTER JOIN
+* CROSS JOIN
+* SELF JOIN
+
+
+## INNER JOIN
+
+INNER JOIN은 두 테이블을 조인할 때, 두 테이블에 모두 지정한 열의 데이터가 존재해야 한다.
+
+가장 많이 사용되는 조인이다.
+
+### 사용법
+```sql
+SELECT ${열 목록}
+
+FROM ${1번 테이블} INNER JOIN ${2번 테이블}
+
+ON ${조인 조건}
+
+WHERE ${검색 조건}
+
+```
+
+
+## OUTER JOIN
+
+OUTER JOIN은 두 테이블을 조인할 때, 1개에 테이블에만 데이터가 존재해도 결과를 알 수 있다.
+
+```sql
+SELECT ${열 목록}
+
+FROM ${1번 테이블(LEFT)} ${LEFT | RIGHT | FULL} OUTER JOIN ${2번 테이블(RIGHT)}
+
+ON ${조인 조건}
+
+WHERE ${검색 조건}
+
+```
+
+* LEFT : 왼쪽 테이블의 모든 값이 출력
+* RIGHT : 오른쪽 테이블의 모든 값이 출력
+* FULL : 양쪽 테이블의 모든 값이 출력
+
+
+## CROSS JOIN
+
+CROSS JOIN은 한쪽 테이블의 모든 행과 다른 쪽 테이블의 모든 행을 조인하는 기능이다.
+
+카티션 곱이라고도 불린다.
+
+```sql
+SELECT ${열 목록}
+
+FROM ${1번 테이블} CROSS JOIN ${2번 테이블}
+
+
+## SELF JOIN
+
+SELF JOIN은 자기 자신과 JOIN을 진행한다는 의미이다. 1개의 테이블을 사용한다.
 
 
 
