@@ -67,6 +67,7 @@ DELETE FROM ${테이블 또는 뷰 이름}
 > GROUP BY는 같은 값을 가진 행끼리 하나의 그룹으로 뭉쳐주는 기능이다.
 
 다음 그림을 살펴보자.
+![image](https://user-images.githubusercontent.com/79268661/183381183-7fd40016-e3a5-4c98-8cc7-5a4d19822837.png)
 
 
 ## 사용법
