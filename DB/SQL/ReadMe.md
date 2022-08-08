@@ -10,9 +10,7 @@
 # DML
 DML은 _**Data Manipulation Language**_ 의 줄임말이다. 데이터 조작어를 뜻한다.
 
-DDL은 크게 4가지로 구분된다.
-
-[✅ DML](https://github.com/Cha-Young-Ho/TIL/tree/main/DB/SQL/DDL)
+[✅ DML](https://github.com/Cha-Young-Ho/TIL/tree/main/DB/SQL/DML)
 
 # DDL
 DDL은 _**Data Definition Language**_ 의 줄임말이다. 데이터 정의어를 뜻한다.
