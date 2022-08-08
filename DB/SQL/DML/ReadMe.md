@@ -128,6 +128,8 @@ WHERE ${검색 조건}
 
 ```
 
+![image](https://user-images.githubusercontent.com/79268661/183385976-676e0277-187e-4c9f-ac5e-4963aa538771.png)
+
 
 ## OUTER JOIN
 
@@ -148,6 +150,9 @@ WHERE ${검색 조건}
 * RIGHT : 오른쪽 테이블의 모든 값이 출력
 * FULL : 양쪽 테이블의 모든 값이 출력
 
+![image](https://user-images.githubusercontent.com/79268661/183386024-487af20a-4253-4d48-880f-0acdec8e8e31.png)
+
+
 
 ## CROSS JOIN
 
@@ -160,14 +165,14 @@ SELECT ${열 목록}
 
 FROM ${1번 테이블} CROSS JOIN ${2번 테이블}
 
+![image](https://user-images.githubusercontent.com/79268661/183386040-65c59f0f-93ff-456d-86bd-bda67128081d.png)
+
+
 
 ## SELF JOIN
 
 SELF JOIN은 자기 자신과 JOIN을 진행한다는 의미이다. 1개의 테이블을 사용한다.
 
-
-
-
-
+![image](https://user-images.githubusercontent.com/79268661/183386071-6bebbfd6-0810-493d-b326-6a75ca9b686e.png)
 
 
