@@ -166,7 +166,7 @@ SELECT ${열 목록}
 FROM ${1번 테이블} CROSS JOIN ${2번 테이블}
 
 ![image](https://user-images.githubusercontent.com/79268661/183386040-65c59f0f-93ff-456d-86bd-bda67128081d.png)
-
+```
 
 
 ## SELF JOIN
