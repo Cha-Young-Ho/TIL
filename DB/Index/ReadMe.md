@@ -7,6 +7,8 @@
 
 
 # 인덱스란?
+![image](https://user-images.githubusercontent.com/79268661/183885071-2c26d192-396e-4ab8-9b0d-6cbceac753d6.png)
+
 인덱스란 데이터베이스 테이블에 대한 검색 성능의 속도를 높여주는 자료 구조이다.
 
 예를 들어 설명하면 도서에서 목차라고 생각하면 된다.
@@ -94,5 +96,10 @@ PK로 어떠한 내용을 생성하면 _**클러스터형 인덱스**_가 생성
 Unique key로 어떠한 내용을 생성하면 _**보조 인덱스**_가 생성된다.
 
 # 인덱스 내부작동
+![image](https://user-images.githubusercontent.com/79268661/183885094-da37bb71-630d-45f3-9ddc-5bea4eebff73.png)
+
 > 인덱스는 내부적으로 B - Tree 자료구조를 이용한다.
+
+# 참고
+[코딩팩토리 인덱스글](https://coding-factory.tistory.com/746)
 
