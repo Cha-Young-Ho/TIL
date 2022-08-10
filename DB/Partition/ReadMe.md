@@ -33,6 +33,8 @@
 # 종류
 
 ## 수평 분할
+![image](https://user-images.githubusercontent.com/79268661/183879735-2f417d3c-0219-45c9-afcb-fb1ec898b449.png)
+
 
 수평 분할은 하나의 테이블의 각 행을 다른 테이블에 분산시키는 것이다.
 
@@ -64,6 +66,8 @@ CREATE TABLE Membe(
 ###
 
 ## 수직 분할
+![image](https://user-images.githubusercontent.com/79268661/183879699-dab22ae2-a78b-48fc-868a-325cc7521450.png)
+
 
 수직 분할은 하나의 테이블에서 일부 열을 뺴내는 형태로 분할한다.
 
@@ -77,6 +81,9 @@ CREATE TABLE Membe(
 > 그 외 파티셔닝 분할 기준을 설정할 수 있다.
 
 # DB 파티셔닝 분할 기준
+
+![image](https://user-images.githubusercontent.com/79268661/183879657-15ccc489-27bc-47f0-8f8b-85b94590c1b5.png)
+
 
 DB 시스템은 분할에 관해서 각종 기준을 제공하고 있다.
 
