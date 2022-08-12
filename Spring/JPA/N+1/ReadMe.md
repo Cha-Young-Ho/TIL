@@ -101,5 +101,18 @@ public class MemberService{
 
 ```
 
-여기서 findAllLocation 메소드를 호출하게되면
+여기서 findAllLocation 메소드를 호출하게되면 멤버 1명 당 가지고 있는 Location의 개수만큼 select가 발생한다.
+
+멤버가 100명있고, 각각 Location을 10개씩 가지고 있다면
+
+총 조회 쿼리는 100 * 10개가 되어 1000개의 DB 조회가 수행된다.
+
+이 문제가 바로 N + 1 문제이다.
+
+
+# 해결방법
+
+## Fetch Join
+
+
 
