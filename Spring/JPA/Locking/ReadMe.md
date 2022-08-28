@@ -61,6 +61,9 @@ JPA는 낙관적 락을 "Version"을 이용하여 제공한다.
 
 다음 그림을 살펴보자.
 
+![image](https://user-images.githubusercontent.com/79268661/187074273-199fd370-a6cd-43e5-a08d-b98b357e47ef.png)
+
+
 1. Alice의 product 접근은 version 1로 접근되었다.
 2. Batch job 접근은 version 1로 접근되었다.
 3. Batch job 접근이 Update를 하여 version을 2로 변경하였다.
