@@ -91,6 +91,9 @@
 
 아래의 그림을 보면 각 PDU를 볼 수 있다.
 
+![image](https://user-images.githubusercontent.com/79268661/188265483-32fabc7c-3bc6-4d13-be4f-1e217034c961.png)
+
+
 
 
 
