@@ -62,11 +62,16 @@ IP를 클래스 단위로 나누어서 사용했다.
 
 공인 IP 주소를 확인해보자.
 
+![image](https://user-images.githubusercontent.com/79268661/188268134-c5ff9eb9-1722-4a56-aa19-92f99fa86e12.png)
+
+
 위와 같이 나온다.
 
 > 같은 wifi를 사용하는 다른 기기를 사용해도 위와 똑같이 나올 것이다.
 
 그럼 사설 IP 주소룰 확인해보자.
+
+![image](https://user-images.githubusercontent.com/79268661/188268172-8587e3ab-f15c-4599-ad64-d5a14fd2dde9.png)
 
 위와 같이 나온다.
 
@@ -95,6 +100,9 @@ IP를 클래스 단위로 나누어서 사용했다.
 
 ## ARP 프로토콜 구조
 총 28 bytes 로 구성된다.
+
+![image](https://user-images.githubusercontent.com/79268661/188268195-4d499c9b-aa4a-44f8-b644-d9a9c7d00361.png)
+
 
 * Hardware type : 하드웨어(MAC) 주소의 유형을 말하며 이더넷 통신시 항상 1로 설정된다.
 
