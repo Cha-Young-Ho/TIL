@@ -19,6 +19,9 @@ OUI : 6C-29-95는 IEEE에서 부여하는 일종의 제조회사 식별 ID이다
 
 Ethernet 프로토콜이라고 말한다.
 
+![image](https://user-images.githubusercontent.com/79268661/188266157-47866e94-1eee-4be3-ab61-595e8a96ea83.png)
+
+
 위의 그림처럼 이루어져 있다.
 
 * Preable : 송신측과 수신측의 전송속도를 맞추기위한 내용
