@@ -6,6 +6,7 @@
 
 # UDP 프로토콜 구조
 
+![3](https://user-images.githubusercontent.com/79268661/188301135-d2a65c32-92ab-4170-955f-4c672c9ff9bc.png)
 
 * Source Port : 출발지 포트
 * Destination Port : 도착지 포트
@@ -63,6 +64,8 @@ TCP를 이용한 통신을 할 때 프로세스와 프로세스를 연결하기 
 ## TCP 3Way Handshake 상세보기
 
 ## TCP 연결의 시작
+
+![image](https://user-images.githubusercontent.com/79268661/188301196-9409283a-e911-44f2-ad51-27bf22b320f5.png)
 
 1. 사용자의 웹브라우저는 Eth + IPv4 + TCP를 포장하여 웹서버를 향해서 요청을 보낸다.
   * TCP의 Flags는 Seq가 설정되어 보내진다.
