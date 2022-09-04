@@ -59,8 +59,8 @@
 
 
 
-# UDP
-> 안전한 연결을 지향하지 않은 불친절한 프로토콜이다.
+# TCP, UDP
+* UDP : 안전한 연결을 지향하지 않은 불친절한 프로토콜이다.
+* TCP : 안전한 연결을 지향하는 친절한 프로토콜이다.
 
-# TCP
-> 안전한 연결을 지향하는 친절한 프로토콜이다.
+[✅ TCP, UDP](https://github.com/Cha-Young-Ho/TIL/tree/main/CS/Network/Model/Transport-Layer/Tcp-Udp)
