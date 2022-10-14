@@ -2,6 +2,9 @@
 
 > 컨테이너를 표현하는 k8s api의 최소 단위이다.
 
+<img width="681" alt="스크린샷 2022-10-14 오후 6 05 45" src="https://user-images.githubusercontent.com/79268661/195815958-abf0349b-77bc-4e55-b3bc-47b9a8cfafab.png">
+
+pod는 위와같이 1개의 컨테이너 혹은 1개 이상의 컨테이너를 포함할 수 있다.
 
 # Pod 생성하기
 
