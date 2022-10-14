@@ -5,6 +5,9 @@
 * 쿠버네티스 클러스터 하나를 여러 팀이나 사용자가 함께 공유
 * 용도에 따라 실행해야 하는 앱을 구분할 때 사용
 
+<img width="332" alt="스크린샷 2022-10-14 오후 5 09 38" src="https://user-images.githubusercontent.com/79268661/195800195-17a41840-9621-4428-ae0e-7a68d0e37e75.png">
+
+
 # kubectl 예시
 
 ## namespace 생성
