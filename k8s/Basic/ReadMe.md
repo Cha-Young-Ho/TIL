@@ -12,6 +12,7 @@
 
 # 컴포넌트 살펴보기
 
+<img width="669" alt="스크린샷 2022-10-14 오후 4 55 18" src="https://user-images.githubusercontent.com/79268661/195800116-9ab6582a-7e7f-4765-9766-a0e9e022fa64.png">
 
 
 ## 마스터 컴포넌트
